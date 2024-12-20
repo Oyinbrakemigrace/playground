@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import Button2 from '../components/Button2'
 
 const Learn2 = () => {
@@ -22,16 +22,16 @@ const Learn2 = () => {
         "JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.",
     },
   ];
-  const[panelIndex, setPanelIndex]= useState(1)
+  const [panelIndex, setPanelIndex] = useState(1)
   return (
     <div>
       <div>
-        {panels.map((panel)=> {
-          return(
-            <Button2 
-            key={panel.id}
-            click={()=> setPanelIndex(panel.id)}
-            isActive={panelIndex === panel.id}
+        {panels.map((panel) => {
+          return (
+            <Button2
+              key={panel.id}
+              click={() => setPanelIndex(panel.id)}
+              isActive={panelIndex === panel.id}
             >
               {panel.language}
             </Button2>
@@ -39,7 +39,7 @@ const Learn2 = () => {
         })}
       </div>
       <div>
-        {panels.find((panel)=> panel.id === panelIndex).details}
+        {panels.find((panel) => panel.id === panelIndex).details}
       </div>
     </div>
   )
