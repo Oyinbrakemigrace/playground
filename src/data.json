@@ -1,0 +1,26 @@
+[
+    {
+        "image": "/burger.jpg",
+        "foodName": "Burger and Chips",
+        "smallFoodName": "Burger",
+        "foodPrice": 5
+    },
+    {
+        "image": "/food.jpeg",
+        "foodName": "Sausage and Chips",
+        "smallFoodName": "Sausage",
+        "foodPrice": 20
+    },
+    {
+        "image": "/French.jpg",
+        "foodName": "Pancakes and Strawberries",
+        "smallFoodName": "Pancakes",
+        "foodPrice": 50
+    },
+    {
+        "image": "/images.jpeg",
+        "foodName": "Crispy chicken",
+        "smallFoodName": "chicken",
+        "foodPrice": 54
+    }
+]

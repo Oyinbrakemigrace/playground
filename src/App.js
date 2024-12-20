@@ -1,9 +1,10 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <div className="font-bold text-yellow-400 text-4xl text-center capitalize">
-      hi
+    <div className="">
+      <Outlet />
     </div>
   );
 }
